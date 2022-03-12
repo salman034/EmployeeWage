@@ -1,4 +1,4 @@
-package com.bl.employeeWages;
+package employeeWages;
 
 public class EmployeeWages {
     public static void main(String[] args) {

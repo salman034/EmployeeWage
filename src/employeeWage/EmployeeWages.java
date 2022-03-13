@@ -10,7 +10,7 @@ public class EmployeeWages {
             int empCheck = (int) Math.floor(Math.random() * 10) % 3;
             switch (empCheck) {
                 case 1:
-                    IS_Full_Time:
+                    IS_FULL_TIME:
                     empHrs = 8;
                     break;
                 case 2:

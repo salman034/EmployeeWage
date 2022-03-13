@@ -4,7 +4,7 @@ public class EmployeeWages {
     public static void main(String[] args) {
         int EMP_RATE_PER_HOUR = 20;
         int NUM_OF_WORKING_DAYS = 2;
-        int empHrs, empWage, totalEmpWage = 0;
+        int empHrs, empWage, totalEmpWage, day = 0;
 
         for (int day = 0; day < NUM_OF_WORKING_DAYS; day++) {
             int empCheck = (int) Math.floor(Math.random() * 10) % 3;

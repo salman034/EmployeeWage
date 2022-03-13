@@ -6,7 +6,7 @@ public class EmployeeWages {
         int NUM_OF_WORKING_DAYS = 2;
         int empHrs, empWage, totalEmpWage, day = 0;
 
-        for (int day = 0; day < NUM_OF_WORKING_DAYS; day++) {
+        for (day = 0; day < NUM_OF_WORKING_DAYS; day++) {
             int empCheck = (int) Math.floor(Math.random() * 10) % 3;
             switch (empCheck) {
                 case 1:

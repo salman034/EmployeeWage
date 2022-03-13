@@ -14,7 +14,7 @@ public class EmployeeWages {
                     empHrs = 8;
                     break;
                 case 2:
-                    IS_Part_Time:
+                    IS_PART_TIME:
                     empHrs = 4;
                     break;
                 default:
